@@ -79,6 +79,34 @@
                 Telefone: <a href="tell:+55 48 99821-4233">+55 48 99821-4233</a><!-- Direcionamento direto para o numerod e celular -->
             </address>
 
+            <form action="">
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tell" id="telefone" name="telefone" required><br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçameto</option>
+                    <option value="duvida">Duvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea><br>
+
+                <input type="checkbox" name="inscricao" id="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label><br>
+
+                <input type="submit" value="Enviar mensagem">
+
+                <input type="date">
+            </form>
+
         </section>
 
     </footer>
